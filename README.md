@@ -79,11 +79,11 @@ In the list of stacks, choose the stack you created.
 
 1. Installer Git
 
-2. Installer Docker (prerequis : wsl2)
+2. Installer Docker
 
 3. Installer python
 
-Sur site officiel Ex: python-3.8.6-amd64.exe
+Sur site officiel
 
 4. Installer VSCode
 

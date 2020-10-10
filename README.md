@@ -36,6 +36,19 @@ $ sam logs -n HelloWorldFunction --stack-name MonApplicationAwsSAM --tail
 [SAM CLI Doc logging](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html).
 
 
+Tests are defined in the `tests` folder in this project. Use PIP to install the [pytest](https://docs.pytest.org/en/latest/) and run unit tests.
+
+```bash
+$ pip install pytest pytest-mock --user
+$ python -m pytest tests/ -v
+```
+
+
+To delete the sample application, use the AWS CLI.
+
+```bash
+aws cloudformation delete-stack --stack-name MonApplicationAwsSAM
+```
 
 ## Installation d'un poste de dev 
 

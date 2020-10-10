@@ -12,6 +12,9 @@ https://docs.aws.amazon.com/cli/index.html
 ## Python Bonne pratique
 
 ```bash
+
+python3 -m venv /path/to/new/virtual/environment
+
 sam init --runtime python3.6 --name python-debugging
 cd python-debugging/
 

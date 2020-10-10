@@ -33,6 +33,9 @@ https://aws.amazon.com/fr/blogs/developer/following-serverless-best-practices-wi
 https://aws.amazon.com/fr/blogs/developer/deploying-aws-chalice-application-using-aws-cloud-development-kit/
 
 
+## AWS Lambda
+
+https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html
 
 
 ## AWS Serverless Application Model

@@ -31,10 +31,11 @@ deactivate
 # Créer son repertoire projet
 Ex: sam init
 
-# Install les dependances
+# Installer les dependances
 
-$ pip install aws_lambda_powertools requests
-$ pip freeze | grep aws_lambda_powertools >> requirements.txt
+$ pip install requests pytest
+
+$ pip freeze | grep pytest >> requirements.txt
 $ pip freeze | grep requests >> requirements.txt
 
 ```

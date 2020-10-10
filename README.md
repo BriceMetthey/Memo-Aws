@@ -11,9 +11,16 @@ https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architect
 ## Python Bonne pratique
 
 ```bash
-$ python3 -m venv /tmp/venv38
-$ . /tmp/venv38/bin/activate
-$ pip install xxx
+sam init --runtime python3.6 --name python-debugging
+cd python-debugging/
+
+# Install dependencies of our boilerplate app
+pip install -r hello_world/requirements.txt -t hello_world/build/
+
+# Install ptvsd library for step through debugging
+pip install ptvsd -t hello_world/build/
+
+cp hello_world/app.py hello_world/build/
 ```
 
 ## AWS Chalice
@@ -73,6 +80,14 @@ Vous pouvez spécifier un certain nombre de valeurs à remplacer dans la demande
 ```bash
 $ sam local generate-event apigateway aws-proxy --body "" --path "hello" --method GET > api-event.json
 ```
+
+Le Debugging
+
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-test-and-debug.html
+
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging-python.html
+
+
 
 To simplify troubleshooting, SAM CLI has a command called `sam logs`.
 

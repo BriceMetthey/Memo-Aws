@@ -17,9 +17,15 @@ https://docs.aws.amazon.com/cli/index.html
  python -m venv envirovirtuelaws
  
  # Activer cet environnement
+Démarrer en Admin Powershell
+set-executionpolicy remotesigned
+
 .\envirovirtuelaws\Scripts\activate.ps1
 
-sam init --runtime python3.6 --name python-debugging
+# Pour une desactivation d'un environnement virtuel
+deactivate
+
+sam init 
 cd python-debugging/
 
 # Install dependencies of our boilerplate app

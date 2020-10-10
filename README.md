@@ -6,6 +6,7 @@ https://aws.amazon.com/fr/local/france/
 
 https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architectes-serverless/
 
+https://docs.aws.amazon.com/cli/index.html
 
 
 ## Python Bonne pratique

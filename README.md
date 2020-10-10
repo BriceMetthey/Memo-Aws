@@ -8,7 +8,13 @@ https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architect
 
 
 
+## Python Bonne pratique
 
+```bash
+$ python3 -m venv /tmp/venv38
+$ . /tmp/venv38/bin/activate
+$ pip install xxx
+```
 
 ## AWS Chalice
 
@@ -29,6 +35,9 @@ https://aws.amazon.com/fr/serverless/serverlessrepo/
 ```bash
 sam init
 ```
+
+--> Ensuite mettre en place un environnement virtuel !
+
 
 Build your application with the `sam build --use-container` command.
 

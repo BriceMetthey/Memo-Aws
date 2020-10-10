@@ -35,6 +35,9 @@ Ex: sam init
 
 $ pip install requests pytest
 
+Sous Windows :
+$ pip freeze > requirements.txt
+
 $ pip freeze | grep pytest >> requirements.txt
 $ pip freeze | grep requests >> requirements.txt
 

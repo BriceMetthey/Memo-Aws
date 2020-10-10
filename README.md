@@ -5,9 +5,8 @@ https://aws.amazon.com/fr/local/france/
 ## AWS Serverless Application Model
 
 https://aws.amazon.com/fr/serverless/sam/
-
-[AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
-
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html
+https://aws.amazon.com/fr/serverless/serverlessrepo/
 
 
 ```bash

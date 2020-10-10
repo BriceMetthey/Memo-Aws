@@ -111,6 +111,9 @@ In the left navigation pane, choose Stacks.
 In the list of stacks, choose the stack you created.
 
 
+## AWS Step Function
+
+https://aws.amazon.com/fr/step-functions/
 
 
 ## Installation d'un poste de dev 

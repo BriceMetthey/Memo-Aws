@@ -91,6 +91,8 @@ Sur site officiel Ex: python-3.8.6-amd64.exe
 
 6. Installer Plugin Python pour VSCode
 
+Note : pylint (linter pour python) va demander à être installé à l'ouverture d'un fichier python.
+
 6. Installer AWS CLI
 
 https://aws.amazon.com/fr/cli/

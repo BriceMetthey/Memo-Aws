@@ -15,6 +15,8 @@ Sur site officiel Ex: python-3.8.6-amd64.exe
 
 5. Installer AWS toolkit pour VSCode
 
+6. Installer Plugin Python pour VSCode
+
 6. Installer AWS CLI
 
 https://aws.amazon.com/fr/cli/

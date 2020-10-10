@@ -13,7 +13,11 @@ https://docs.aws.amazon.com/cli/index.html
 
 ```bash
 
+# Créer un nouvel environnement virtuel
  python -m venv envirovirtuelaws
+ 
+ # Activer cet environnement
+ powershell -ExecutionPolicy Bypass -File .\envirovirtuelaws\Scripts\Activate.ps1
 
 sam init --runtime python3.6 --name python-debugging
 cd python-debugging/

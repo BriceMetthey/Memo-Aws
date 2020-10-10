@@ -6,6 +6,17 @@ https://aws.amazon.com/fr/local/france/
 
 https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architectes-serverless/
 
+
+
+
+
+## AWS Chalice
+
+https://aws.amazon.com/fr/blogs/developer/following-serverless-best-practices-with-aws-chalice-and-lambda-powertools/
+
+
+
+
 ## AWS Serverless Application Model
 
 https://aws.amazon.com/fr/serverless/sam/

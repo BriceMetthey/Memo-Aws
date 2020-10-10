@@ -8,6 +8,9 @@ https://aws.amazon.com/fr/serverless/sam/
 
 [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 
+Les prérequis : SAM CLI / Python 3 / Docker
+
+
 Build your application with the `sam build --use-container` command.
 
 ```bash
@@ -27,6 +30,12 @@ $ sam local start-api
 $ curl http://localhost:3000/
 ```
 
+Vous pouvez spécifier un certain nombre de valeurs à remplacer dans la demande pour simuler ce que vous attendez d'une demande réelle
+
+```bash
+$ sam local generate-event apigateway aws-proxy --body "" --path "hello" --method GET > api-event.json
+```
+
 To simplify troubleshooting, SAM CLI has a command called `sam logs`.
 
 ```bash
@@ -41,6 +50,13 @@ Tests are defined in the `tests` folder in this project. Use PIP to install the 
 ```bash
 $ pip install pytest pytest-mock --user
 $ python -m pytest tests/ -v
+```
+
+To build and deploy your application for the first time, run the following in your shell:
+
+```bash
+sam build --use-container
+sam deploy --guided
 ```
 
 

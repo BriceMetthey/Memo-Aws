@@ -22,6 +22,9 @@ set-executionpolicy remotesigned
 
 .\envirovirtuelaws\Scripts\activate.ps1
 
+PS C:\Code\WorkspaceVSCode> .\envirovirtuelaws\Scripts\activate.ps1
+(envirovirtuelaws) PS C:\Code\WorkspaceVSCode>
+
 # Pour une desactivation d'un environnement virtuel
 deactivate
 

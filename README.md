@@ -51,7 +51,7 @@ To simplify troubleshooting, SAM CLI has a command called `sam logs`.
 $ sam logs -n HelloWorldFunction --stack-name MonApplicationAwsSAM --tail
 ```
 
-[SAM CLI Doc logging](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html).
+Voir : https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html
 
 
 Tests are defined in the `tests` folder in this project. Use PIP to install the [pytest](https://docs.pytest.org/en/latest/) and run unit tests.

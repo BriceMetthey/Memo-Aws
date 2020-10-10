@@ -8,10 +8,19 @@ https://aws.amazon.com/fr/serverless/sam/
 
 [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 
-Les prérequis : SAM CLI / Python 3 / Docker
 
+
+```bash
+sam init
+```
 
 Build your application with the `sam build --use-container` command.
+
+```bash
+$ sam build
+```
+
+ou
 
 ```bash
 $ sam build --use-container

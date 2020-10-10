@@ -13,7 +13,7 @@ https://docs.aws.amazon.com/cli/index.html
 
 ```bash
 
-python3 -m venv /path/to/new/virtual/environment
+ python -m venv envirovirtuelaws
 
 sam init --runtime python3.6 --name python-debugging
 cd python-debugging/

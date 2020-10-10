@@ -66,6 +66,15 @@ To delete the sample application, use the AWS CLI.
 aws cloudformation delete-stack --stack-name MonApplicationAwsSAM
 ```
 
+Ou bien : https://console.aws.amazon.com/cloudformation.
+
+In the left navigation pane, choose Stacks.
+
+In the list of stacks, choose the stack you created.
+
+
+
+
 ## Installation d'un poste de dev 
 
 1. Installer Git

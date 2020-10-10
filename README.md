@@ -6,6 +6,8 @@ https://aws.amazon.com/fr/local/france/
 
 https://aws.amazon.com/fr/serverless/sam/
 
+[AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
+
 Build your application with the `sam build --use-container` command.
 
 ```bash

@@ -25,16 +25,15 @@ set-executionpolicy remotesigned
 # Pour une desactivation d'un environnement virtuel
 deactivate
 
-sam init 
-cd python-debugging/
+# Créer son repertoire projet
+Ex: sam init
 
-# Install dependencies of our boilerplate app
-pip install -r hello_world/requirements.txt -t hello_world/build/
+# Install les dependances
 
-# Install ptvsd library for step through debugging
-pip install ptvsd -t hello_world/build/
+$ pip install aws_lambda_powertools requests
+$ pip freeze | grep aws_lambda_powertools >> requirements.txt
+$ pip freeze | grep requests >> requirements.txt
 
-cp hello_world/app.py hello_world/build/
 ```
 
 ## AWS Chalice

@@ -18,7 +18,11 @@ $ pip install xxx
 
 ## AWS Chalice
 
+https://aws.github.io/chalice/index
+
 https://aws.amazon.com/fr/blogs/developer/following-serverless-best-practices-with-aws-chalice-and-lambda-powertools/
+
+https://aws.amazon.com/fr/blogs/developer/deploying-aws-chalice-application-using-aws-cloud-development-kit/
 
 
 

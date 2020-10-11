@@ -38,8 +38,14 @@ $ pip install requests pytest
 Sous Windows :
 $ pip freeze > requirements.txt
 
+Sous Linux :
 $ pip freeze | grep pytest >> requirements.txt
 $ pip freeze | grep requests >> requirements.txt
+
+
+#Toutes les dépendances du projet seront installées automatiquement par un autre utilisateur:
+
+pip install -r requirements.txt
 
 ```
 

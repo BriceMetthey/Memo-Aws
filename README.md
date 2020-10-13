@@ -116,7 +116,7 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/s
 
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging-python.html
 
-Suivre la doc de
+Suivre la doc AWS officielle précedente avec quelques nuances ...
 
 workspace.json de Visual studio => corriger le path de localRoot
 

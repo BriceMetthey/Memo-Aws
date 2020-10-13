@@ -116,23 +116,24 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/s
 
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging-python.html
 
+Suivre la doc de
 
 workspace.json de Visual studio => corriger le path de localRoot
 
 ```json
 {
-				"name": "SAM CLI DEBUG MODE",
-				"type": "python",
-				"request": "attach",
-				"port": 5890,
-				"host": "localhost",
-				"pathMappings": [
-					{
-						"localRoot": "${workspaceFolder}/sam-app/hello_world/build",
-						"remoteRoot": "/var/task"
-					}
-				]
-			}
+	"name": "SAM CLI DEBUG MODE",
+	"type": "python",
+	"request": "attach",
+	"port": 5890,
+	"host": "localhost",
+	"pathMappings": [
+		{
+			"localRoot": "${workspaceFolder}/sam-app/hello_world/build",
+			"remoteRoot": "/var/task"
+		}
+	]
+}
 ```
 
 template.yaml de l'application SAM => Corriger CodeUri

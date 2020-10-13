@@ -117,6 +117,43 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/s
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging-python.html
 
 
+workspace.json de Visual studio => corriger le path de localRoot
+
+```json
+{
+				"name": "SAM CLI DEBUG MODE",
+				"type": "python",
+				"request": "attach",
+				"port": 5890,
+				"host": "localhost",
+				"pathMappings": [
+					{
+						"localRoot": "${workspaceFolder}/sam-app/hello_world/build",
+						"remoteRoot": "/var/task"
+					}
+				]
+			}
+```
+
+template.yaml de l'application SAM => Corriger CodeUri
+
+```yaml
+Resources:
+  HelloWorldFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: hello_world/build/
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      Events:
+        HelloWorld:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /hello
+            Method: get
+```
+
+
 
 To simplify troubleshooting, SAM CLI has a command called `sam logs`.
 

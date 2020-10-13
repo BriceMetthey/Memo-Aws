@@ -28,7 +28,7 @@ PS C:\Code\WorkspaceVSCode> .\envirovirtuelaws\Scripts\activate.ps1
 # Pour une desactivation d'un environnement virtuel
 deactivate
 
-# Créer son repertoire projet
+# Créer son repertoire projet (plutot initialiser avec VSCode)
 Ex: sam init
 
 # Installer les dependances

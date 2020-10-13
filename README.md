@@ -159,7 +159,7 @@ Resources:
 To simplify troubleshooting, SAM CLI has a command called `sam logs`.
 
 ```bash
-$ sam logs -n HelloWorldFunction --stack-name MonApplicationAwsSAM --tail
+$ sam logs -n HelloWorldFunction --stack-name sam-app --tail
 ```
 
 Voir : https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html

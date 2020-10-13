@@ -8,6 +8,9 @@ https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architect
 
 https://docs.aws.amazon.com/cli/index.html
 
+## Setup credentials
+
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-set-up-credentials.html
 
 ## Python Bonne pratique
 

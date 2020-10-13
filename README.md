@@ -91,6 +91,8 @@ ou
 $ sam build --use-container
 ```
 
+### Use the SAM CLI to build and test locally
+
 Run functions locally and invoke them with the `sam local invoke` command.
 
 ```bash
@@ -110,7 +112,16 @@ Vous pouvez spécifier un certain nombre de valeurs à remplacer dans la demande
 $ sam local generate-event apigateway aws-proxy --body "" --path "hello" --method GET > api-event.json
 ```
 
-Le Debugging
+### Deploiement AWS
+
+To build and deploy your application for the first time, run the following in your shell:
+
+```bash
+sam build --use-container
+sam deploy --guided
+```
+
+### Le Debugging
 
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-test-and-debug.html
 
@@ -154,7 +165,7 @@ Resources:
             Method: get
 ```
 
-
+### Fetch, tail, and filter Lambda function logs
 
 To simplify troubleshooting, SAM CLI has a command called `sam logs`.
 
@@ -164,7 +175,7 @@ $ sam logs -n HelloWorldFunction --stack-name sam-app --tail
 
 Voir : https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html
 
-
+### Unit tests
 Tests are defined in the `tests` folder in this project. Use PIP to install the [pytest](https://docs.pytest.org/en/latest/) and run unit tests.
 
 ```bash
@@ -172,13 +183,8 @@ $ pip install pytest pytest-mock --user
 $ python -m pytest tests/ -v
 ```
 
-To build and deploy your application for the first time, run the following in your shell:
 
-```bash
-sam build --use-container
-sam deploy --guided
-```
-
+### Cleanup
 
 To delete the sample application, use the AWS CLI.
 

@@ -82,13 +82,15 @@ sam init
 --> Ensuite mettre en place un environnement virtuel !
 
 
-Build your application with the `sam build --use-container` command.
+Build your application with the `sam build` command.
 
 ```bash
 $ sam build
 ```
 
 ou
+
+If your functions depend on packages that have natively compiled dependencies, use this flag to build your function :
 
 ```bash
 $ sam build --use-container

@@ -75,6 +75,8 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/w
 https://aws.amazon.com/fr/serverless/serverlessrepo/
 
 
+### Init
+
 1. Commencer par mettre en place un environnement virtuel (ie. bonnes pratiques)
 
 2. initialisation de AWWS SAM par ligne de commande ou VSCode
@@ -85,8 +87,18 @@ Par VSCode : Ajout de pre-conf pour run avec VSCode
 sam init
 ```
 
+### Indus
 
 
+```hello_world/requirements.txt
+requests
+pytest
+pytest-mock
+```
+
+`pip install -r hello_world/requirements.txt`
+
+### Build
 
 Build your application with the `sam build` command.
 

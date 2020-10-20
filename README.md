@@ -75,11 +75,17 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/w
 https://aws.amazon.com/fr/serverless/serverlessrepo/
 
 
+1. Commencer par mettre en place un environnement virtuel (ie. bonnes pratiques)
+
+2. initialisation de AWWS SAM par ligne de commande ou VSCode
+
+Par VSCode : Ajout de pre-conf pour run avec VSCode
+
 ```bash
 sam init
 ```
 
---> Ensuite mettre en place un environnement virtuel !
+
 
 
 Build your application with the `sam build` command.
@@ -108,7 +114,7 @@ The SAM CLI can also emulate your application's API. Use the `sam local start-ap
 
 ```bash
 $ sam local start-api
-$ curl http://localhost:3000/
+$ curl http://127.0.0.1:3000/hello
 ```
 
 Vous pouvez spécifier un certain nombre de valeurs à remplacer dans la demande pour simuler ce que vous attendez d'une demande réelle

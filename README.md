@@ -89,8 +89,9 @@ sam init
 
 ### Indus
 
+Modifier hello_world/requirements.txt
 
-```hello_world/requirements.txt
+```txt
 requests
 pytest
 pytest-mock

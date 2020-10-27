@@ -4,6 +4,8 @@ https://aws.amazon.com/fr/local/france/
 
 ## Doc générale
 
+https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+
 https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architectes-serverless/
 
 https://docs.aws.amazon.com/cli/index.html

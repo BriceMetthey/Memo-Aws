@@ -229,6 +229,9 @@ In the list of stacks, choose the stack you created.
 
 https://aws.amazon.com/fr/step-functions/
 
+## Lambda + RDS
+
+https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/services-rds-tutorial.html
 
 ## Installation d'un poste de dev 
 

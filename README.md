@@ -230,7 +230,7 @@ https://aws.amazon.com/fr/step-functions/
 
 ## Lambda + RDS
 
-https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/services-rds-tutorial.html
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.Python.html
 
 ## Installation d'un poste de dev 
 

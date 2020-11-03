@@ -37,15 +37,14 @@ deactivate
 Ex: sam init
 
 # Installer les dependances
+pip install requests pytest
 
-$ pip install requests pytest
+# Installer obligatoirement
+pip install wheel 
 
 Sous Windows :
 $ pip freeze > requirements.txt
 
-Sous Linux :
-$ pip freeze | grep pytest >> requirements.txt
-$ pip freeze | grep requests >> requirements.txt
 
 
 #Toutes les dépendances du projet seront installées automatiquement par un autre utilisateur:

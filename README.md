@@ -232,6 +232,8 @@ https://aws.amazon.com/fr/step-functions/
 
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.Python.html
 
+pip install mysql-connector-python
+
 ## Installation d'un poste de dev 
 
 1. Installer Git

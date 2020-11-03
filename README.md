@@ -240,15 +240,11 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Co
 
 3. Installer python
 
-Sur site officiel
-
 4. Installer VSCode
 
 5. Installer AWS toolkit pour VSCode
 
 6. Installer Plugin Python pour VSCode
-
-Note : pylint (linter pour python) va demander à être installé à l'ouverture d'un fichier python.
 
 7. Mettre en place un environment virtuel
 

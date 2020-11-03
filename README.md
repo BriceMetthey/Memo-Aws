@@ -250,10 +250,14 @@ Sur site officiel
 
 Note : pylint (linter pour python) va demander à être installé à l'ouverture d'un fichier python.
 
-6. Installer AWS CLI
+7. Mettre en place un environment virtuel
+
+8. Dans VSCode -> Command Palette -> Python : Select Interpreter -> Choisir le python.exe de votre enviro virtuel
+
+9. Installer AWS CLI
 
 https://aws.amazon.com/fr/cli/
 
-7. Installer AWS SAM CLI
+10. Installer AWS SAM CLI
 
 https://aws.amazon.com/fr/serverless/sam/

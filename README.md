@@ -234,6 +234,10 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Co
 
 pip install mysql-connector-python
 
+Créer un nouveau security group et autoriser mon adresse IP
+
+Modifier la base : laisser le subnet + lier la base au nouveau security group  et enlever le security group alloué par defaut
+
 ## Installation d'un poste de dev 
 
 1. Installer Git

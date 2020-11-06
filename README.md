@@ -81,11 +81,13 @@ pip install mysql-connector-python
 pip install mysql-connector-python-rf
 ```
 
-1. Créer un nouveau security group et autoriser mon adresse IP en entrant
+1. Rendre accessible publiquement la base
 
-2. Modifier la base : laisser le subnet + lier la base au nouveau security group  et enlever le security group alloué par defaut
+2. Créer un nouveau security group et autoriser mon adresse IP en entrant
 
-3. Le code n'est pas forcément adapté pour fonctionner avec AWS SAM
+3. Modifier la base : laisser le subnet + lier la base au nouveau security group  et enlever le security group alloué par defaut
+
+4. Le code n'est pas forcément adapté pour fonctionner avec AWS SAM
 
 ```python
 # Au lieu de ça :
@@ -94,11 +96,11 @@ boto3.Session(profile_name='RDSCreds')
 boto3.Session(aws_access_key_id="xx", aws_secret_access_key="xx")
 ```
 
-4. Pour autoriser un utilisateur ou un rôle IAM à se connecter à votre instance de base de données , vous devez créer une stratégie IAM. Après cela, vous attachez la stratégie à un utilisateur ou à un rôle IAM.
+5. Pour autoriser un utilisateur ou un rôle IAM à se connecter à votre instance de base de données , vous devez créer une stratégie IAM. Après cela, vous attachez la stratégie à un utilisateur ou à un rôle IAM.
 
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.IAMPolicy.html
 
-5. Avoir un utilisateur specifique avec les droits d'authentification IAM
+6. Avoir un utilisateur specifique avec les droits d'authentification IAM
 
 Se connecter avec MySQLWorkbench à la base
 

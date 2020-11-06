@@ -91,6 +91,22 @@ boto3.Session(profile_name='RDSCreds')
 boto3.Session(aws_access_key_id="xx", aws_secret_access_key="xx")
 ```
 
+4. Pour autoriser un utilisateur ou un rôle IAM à se connecter à votre instance de base de données , vous devez créer une stratégie IAM. Après cela, vous attachez la stratégie à un utilisateur ou à un rôle IAM.
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.IAMPolicy.html
+
+5. Avoir un utilisateur specifique avec les droits d'authentification IAM
+
+Se connecter avec MySQLWorkbench à la base
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.DBAccounts.html
+
+```sql
+CREATE USER jane_doe IDENTIFIED WITH AWSAuthenticationPlugin AS 'RDS';
+```
+
+Bien utiliser le user maintenant pour se connecter à la base.
+
 ## Installation d'un poste de dev 
 
 1. Installer Git

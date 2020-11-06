@@ -21,16 +21,13 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/s
 python -m venv envirovirtuelaws
  
 # Activer un environnement virtuel
-Démarrer en Admin Powershell
+A faire une fois : Démarrer en Admin Powershell
 set-executionpolicy remotesigned
 
 .\envirovirtuelaws\Scripts\activate.ps1
 
 # Pour une desactivation d'un environnement virtuel
 deactivate
-
-# Créer son repertoire projet (plutot initialiser avec VSCode + AWS plugin pour beneficier des modes pas à pas)
-Ex: sam init
 
 # Installer les dependances
 pip install requests pytest
@@ -71,9 +68,9 @@ https://aws.amazon.com/fr/serverless/serverlessrepo/
 
 ### Init
 
-1. Commencer par mettre en place un environnement virtuel (ie. bonnes pratiques)
+1. Commencer par mettre en place un environnement virtuel
 
-2. Initialisation de AWWS SAM par ligne de commande ou VSCode
+2. Initialisation de AWS SAM par ligne de commande ou VSCode
 
 Par VSCode : Ajout de pre-conf pour run avec VSCode
 
@@ -83,39 +80,27 @@ sam init
 
 ### Indus
 
-Modifier hello_world/requirements.txt
+A chaque ajout de dependances penser à fixer le fichier requirements.txt (Tips : Attention à l'encodage)
 
-```txt
-requests
-pytest
-pytest-mock
-```
+`pip freeze > requirements.txt`
 
-`pip install -r hello_world/requirements.txt`
+`pip install -r xxx/requirements.txt`
 
 ### Build
 
 Build your application with the `sam build` command.
 
-```bash
-$ sam build
-```
-
-ou
+`sam build`
 
 If your functions depend on packages that have natively compiled dependencies, use this flag to build your function :
 
-```bash
-$ sam build --use-container
-```
+`sam build --use-container`
 
 ### Use the SAM CLI to build and test locally
 
 Run functions locally and invoke them with the `sam local invoke` command.
 
-```bash
-$ sam local invoke HelloWorldFunction --event events/event.json
-```
+`sam local invoke HelloWorldFunction --event events/event.json`
 
 The SAM CLI can also emulate your application's API. Use the `sam local start-api` to run the API locally on port 3000.
 

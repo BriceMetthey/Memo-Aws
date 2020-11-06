@@ -76,6 +76,8 @@ Voici les  dépendances obligatoires :
 pip install wheel 
 pip install boto3
 pip install mysql-connector-python
+# Pour fixer une erreur d'import pylint :
+pip install mysql-connector-python-rf
 ```
 
 1. Créer un nouveau security group et autoriser mon adresse IP en entrant

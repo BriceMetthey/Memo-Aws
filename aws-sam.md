@@ -1,4 +1,4 @@
-# AWS SAM 
+# AWS Serverless Application Model
 
 https://aws.amazon.com/fr/serverless/sam/
 

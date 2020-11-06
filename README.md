@@ -76,7 +76,7 @@ Voici les  dépendances obligatoires :
 pip install wheel 
 pip install boto3
 pip install mysql-connector-python
-# Pour fixer une erreur d'import pylint :
+# Pour fixer une erreur d'import pylint (mais l'exclure impérativement de requirements.txt):
 pip install mysql-connector-python-rf
 ```
 

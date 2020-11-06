@@ -14,7 +14,7 @@ https://docs.aws.amazon.com/cli/index.html
 
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-set-up-credentials.html
 
-## Python Bonne pratique
+## Python Bonnes pratiques
 
 ```bash
 

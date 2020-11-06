@@ -78,9 +78,18 @@ pip install boto3
 pip install mysql-connector-python
 ```
 
-Créer un nouveau security group et autoriser mon adresse IP
+1. Créer un nouveau security group et autoriser mon adresse IP en entrant
 
-Modifier la base : laisser le subnet + lier la base au nouveau security group  et enlever le security group alloué par defaut
+2. Modifier la base : laisser le subnet + lier la base au nouveau security group  et enlever le security group alloué par defaut
+
+3. Le code n'est pas forcément adapté pour fonctionner avec AWS SAM
+
+```python
+# Au lieu de ça :
+boto3.Session(profile_name='RDSCreds')
+# On fera :
+boto3.Session(aws_access_key_id="xx", aws_secret_access_key="xx")
+```
 
 ## Installation d'un poste de dev 
 

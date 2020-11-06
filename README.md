@@ -72,7 +72,8 @@ Une doc pour aider à se connecter à une BDD RDS :
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.Python.html
 
 Voici les  dépendances obligatoires :
-```
+
+```bash
 pip install wheel 
 pip install boto3
 pip install mysql-connector-python

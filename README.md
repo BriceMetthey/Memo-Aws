@@ -17,23 +17,19 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/s
 ## Python Bonnes pratiques
 
 ```bash
-
 # Créer un nouvel environnement virtuel
- python -m venv envirovirtuelaws
+python -m venv envirovirtuelaws
  
- # Activer cet environnement
+# Activer un environnement virtuel
 Démarrer en Admin Powershell
 set-executionpolicy remotesigned
 
 .\envirovirtuelaws\Scripts\activate.ps1
 
-PS C:\Code\WorkspaceVSCode> .\envirovirtuelaws\Scripts\activate.ps1
-(envirovirtuelaws) PS C:\Code\WorkspaceVSCode>
-
 # Pour une desactivation d'un environnement virtuel
 deactivate
 
-# Créer son repertoire projet (plutot initialiser avec VSCode)
+# Créer son repertoire projet (plutot initialiser avec VSCode + AWS plugin pour beneficier des modes pas à pas)
 Ex: sam init
 
 # Installer les dependances
@@ -42,13 +38,10 @@ pip install requests pytest
 # Installer obligatoirement
 pip install wheel 
 
-Sous Windows :
-$ pip freeze > requirements.txt
+# Freeze des dépendances dans le fichier requirements :
+pip freeze > requirements.txt
 
-
-
-#Toutes les dépendances du projet seront installées automatiquement par un autre utilisateur:
-
+# Installations auto par un autre utilisateur:
 pip install -r requirements.txt
 
 ```

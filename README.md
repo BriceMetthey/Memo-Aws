@@ -228,11 +228,18 @@ In the list of stacks, choose the stack you created.
 
 https://aws.amazon.com/fr/step-functions/
 
-## Lambda + RDS
+## Base de données RDS
+
+Une doc pour aider à se connecter à une BDD RDS :
 
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.Python.html
 
+Voici les  dépendances obligatoires :
+```
+pip install wheel 
+pip install boto3
 pip install mysql-connector-python
+```
 
 Créer un nouveau security group et autoriser mon adresse IP
 
@@ -256,10 +263,6 @@ Modifier la base : laisser le subnet + lier la base au nouveau security group  e
 
 8. Dans VSCode -> Command Palette -> Python : Select Interpreter -> Choisir le python.exe de votre enviro virtuel
 
-9. Installer AWS CLI
+9. Installer AWS CLI    https://aws.amazon.com/fr/cli/
 
-https://aws.amazon.com/fr/cli/
-
-10. Installer AWS SAM CLI
-
-https://aws.amazon.com/fr/serverless/sam/
+10. Installer AWS SAM CLI   https://aws.amazon.com/fr/serverless/sam/

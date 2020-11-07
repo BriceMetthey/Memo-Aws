@@ -45,6 +45,8 @@ pip install -r requirements.txt
 
 ## AWS Chalice
 
+`chalice local --no-autoreload`
+
 https://aws.github.io/chalice/index
 
 https://chalice.readthedocs.io/en/stable/

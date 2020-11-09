@@ -65,13 +65,20 @@ https://aws.amazon.com/fr/blogs/developer/deploying-aws-chalice-application-usin
 https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html
 
 
+## AWS et Front End
+
+https://aws.amazon.com/fr/amplify/
+
+
 ## Modèle d'application sans serveur
 
 https://aws.amazon.com/fr/serverless/
 
+
 ## AWS Serverless Application Model Framework
 
 [Lien vers aws-sam.md](aws-sam.md)
+
 
 ## AWS Step Function
 

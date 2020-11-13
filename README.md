@@ -87,6 +87,10 @@ Bonnes pratiques de déploiement
 
 https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html
 
+Blog sur des bonnes pratiques aws-lambda :
+
+- https://aws.amazon.com/fr/blogs/architecture/best-practices-for-developing-on-aws-lambda/
+
 
 ## AWS et Front End
 

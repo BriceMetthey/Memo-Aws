@@ -92,6 +92,10 @@ Blog sur des bonnes pratiques aws-lambda :
 - https://aws.amazon.com/fr/blogs/architecture/best-practices-for-developing-on-aws-lambda/
 
 
+Doc officielle sur les bonnes pratiques aws-lambda :
+
+- https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/best-practices.html
+
 ## AWS et Front End
 
 https://aws.amazon.com/fr/amplify/

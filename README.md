@@ -96,6 +96,11 @@ Doc officielle sur les bonnes pratiques aws-lambda :
 
 - https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/best-practices.html
 
+
+Utilisation des variables d'environnement AWS Lambda :
+
+- https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/configuration-envvars.html
+
 ## AWS et Front End
 
 https://aws.amazon.com/fr/amplify/

@@ -141,3 +141,11 @@ Ou bien : https://console.aws.amazon.com/cloudformation.
 In the left navigation pane, choose Stacks.
 
 In the list of stacks, choose the stack you created.
+
+
+## SAM & KMS
+
+KMS use case : 
+
+- https://dzone.com/articles/aws-kms-use-case-with-serverless-application-model
+

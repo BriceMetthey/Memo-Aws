@@ -59,6 +59,10 @@ https://aws.amazon.com/fr/blogs/developer/following-serverless-best-practices-wi
 
 https://aws.amazon.com/fr/blogs/developer/deploying-aws-chalice-application-using-aws-cloud-development-kit/
 
+Passer du modèle Chalice au modèle SAM :
+
+- https://aws.amazon.com/fr/blogs/developer/aws-chalice-now-supports-yaml-templates/
+
 
 ## AWS Lambda
 

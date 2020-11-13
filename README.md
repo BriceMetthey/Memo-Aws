@@ -4,13 +4,21 @@ https://aws.amazon.com/fr/local/france/
 
 ## Doc générale
 
-https://aws.amazon.com/fr/products/developer-tools/
+Outils pour développeurs sur AWS :
 
-https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+- https://aws.amazon.com/fr/products/developer-tools/
 
-https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architectes-serverless/
+Boto3 documentation :
 
-https://docs.aws.amazon.com/cli/index.html
+- https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+
+Les 10 choses à savoir pour les architectes Serverless :
+
+- https://aws.amazon.com/fr/blogs/france/les-10-choses-a-savoir-pour-les-architectes-serverless/
+
+Documentation de l'interface de la ligne de commande AWS :
+
+- https://docs.aws.amazon.com/cli/index.html
 
 Comparaison des différentes approches techniques :
 

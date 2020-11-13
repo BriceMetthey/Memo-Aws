@@ -68,6 +68,16 @@ Utiliser Chalice avec Terraform :
 - https://aws.github.io/chalice/topics/tf.html
 
 
+## Terraform
+
+Deployer une appli AWS Lambda avec Terraform :
+
+- https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway
+
+Bonnes pratiques de déploiement
+
+- https://medium.com/galvanize/aws-lambda-deployment-with-terraform-24d36cc86533
+
 ## AWS Lambda
 
 https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html

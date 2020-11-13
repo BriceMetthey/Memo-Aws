@@ -63,6 +63,10 @@ Passer du modèle Chalice au modèle SAM :
 
 - https://aws.amazon.com/fr/blogs/developer/aws-chalice-now-supports-yaml-templates/
 
+Utiliser Chalice avec Terraform :
+
+- https://aws.github.io/chalice/topics/tf.html
+
 
 ## AWS Lambda
 

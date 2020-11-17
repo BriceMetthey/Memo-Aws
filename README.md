@@ -60,17 +60,11 @@ pip install -r requirements.txt
 
 ## AWS Chalice
 
-`chalice local --no-autoreload`
+Doc officielle :
 
-https://aws.github.io/chalice/index
+- https://aws.github.io/chalice/index
 
-https://chalice.readthedocs.io/en/stable/
-
-https://medium.com/swlh/getting-started-with-chalice-to-create-aws-lambdas-in-python-step-by-step-tutorial-3ccf01701259
-
-https://aws.amazon.com/fr/blogs/developer/following-serverless-best-practices-with-aws-chalice-and-lambda-powertools/
-
-https://aws.amazon.com/fr/blogs/developer/deploying-aws-chalice-application-using-aws-cloud-development-kit/
+- https://chalice.readthedocs.io/en/stable/
 
 Passer du modèle Chalice au modèle SAM :
 

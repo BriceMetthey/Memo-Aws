@@ -6,6 +6,9 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/w
 
 https://aws.amazon.com/fr/serverless/serverlessrepo/
 
+## Presentation video
+
+- [Setup Local Lambda Development Environment Using SAM](https://www.youtube.com/watch?v=bih5b3C1nqc)
 
 ## Init
 

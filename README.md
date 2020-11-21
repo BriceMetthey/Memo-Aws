@@ -4,6 +4,10 @@ https://aws.amazon.com/fr/local/france/
 
 ## Doc générale
 
+Le getting-started officiel :
+
+- https://aws.amazon.com/fr/getting-started/
+
 Outils pour développeurs sur AWS :
 
 - https://aws.amazon.com/fr/products/developer-tools/

@@ -107,6 +107,10 @@ Utilisation des variables d'environnement AWS Lambda :
 
 - https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/configuration-envvars.html
 
+Traitement parallèle en Python
+
+- https://aws.amazon.com/fr/blogs/compute/parallel-processing-in-python-with-aws-lambda/
+
 ## AWS et Front End
 
 https://aws.amazon.com/fr/amplify/

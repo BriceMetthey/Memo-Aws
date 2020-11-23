@@ -115,6 +115,10 @@ Traitement parallèle en Python
 
 - https://aws.amazon.com/fr/blogs/compute/parallel-processing-in-python-with-aws-lambda/
 
+Testing and Deployment Best Practices for AWS Lambda
+
+- https://youtu.be/zJQDAsWm-5k
+
 ## AWS et Front End
 
 https://aws.amazon.com/fr/amplify/

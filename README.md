@@ -8,6 +8,10 @@ Le getting-started officiel :
 
 - https://aws.amazon.com/fr/getting-started/
 
+Approfondissement Serverless
+
+- https://aws.amazon.com/fr/getting-started/deep-dive-serverless/
+
 Outils pour développeurs sur AWS :
 
 - https://aws.amazon.com/fr/products/developer-tools/

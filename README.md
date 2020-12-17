@@ -38,13 +38,13 @@ Le service CloudShell :
 
 Le service de chaos engineering :
 
-https://aws.amazon.com/fr/fis/
+- https://aws.amazon.com/fr/fis/
 
 Les services de Télémétrie :
 
-https://aws.amazon.com/fr/prometheus/
+- https://aws.amazon.com/fr/prometheus/
 
-https://aws.amazon.com/fr/grafana/
+- https://aws.amazon.com/fr/grafana/
 
 
 ## Setup credentials

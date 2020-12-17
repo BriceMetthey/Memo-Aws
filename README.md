@@ -32,6 +32,20 @@ Comparaison des différentes approches techniques :
 
 - https://www.thedevcoach.co.uk/serverless-approaches-comparison/
 
+Le service CloudShell :
+
+- https://aws.amazon.com/fr/cloudshell/
+
+Le service de chaos engineering :
+
+https://aws.amazon.com/fr/fis/
+
+Les services de Télémétrie :
+
+https://aws.amazon.com/fr/prometheus/
+
+https://aws.amazon.com/fr/grafana/
+
 
 ## Setup credentials
 

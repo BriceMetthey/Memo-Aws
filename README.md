@@ -80,6 +80,14 @@ pip install -r requirements.txt
 
 ```
 
+## AWS CloudFormation
+
+https://docs.aws.amazon.com/cloudformation/index.html
+
+## AWS CDK
+
+https://docs.aws.amazon.com/cdk/latest/guide/home.html
+
 ## AWS Chalice
 
 Doc officielle :

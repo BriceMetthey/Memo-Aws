@@ -88,6 +88,8 @@ https://docs.aws.amazon.com/cloudformation/index.html
 
 https://docs.aws.amazon.com/cdk/latest/guide/home.html
 
+https://cdkworkshop.com/
+
 ## AWS Chalice
 
 Doc officielle :
